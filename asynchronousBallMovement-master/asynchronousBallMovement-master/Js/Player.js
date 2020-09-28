@@ -42,7 +42,7 @@ class Player{
       }) 
     }
 
-    static updateCarsAtEnd(){
+    static updateCarsAtEnd(rank){
         database.ref("/").update({
             carsAtEnd:rank
         })
